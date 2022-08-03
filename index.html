@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="body">
@@ -46,10 +47,10 @@
                 <button data-modal-open type="button" class="button button-hero ">Заказать услугу</button>
                 <div data-modal class="backdrop is-hidden">
                     <div class="modal">
-                    <button class="modal-button" data-modal-close>
-                        <svg class="button-close">
-                            <use href="./images/icons.svg#icon-x"></use>
-                        </svg>
+                    <button class="close" data-modal-close>                        
+                            <svg class="close__svg">
+                                <use href="./images/icons.svg#icon-x" ></use>
+                            </svg>                        
                     </button>
                     <!-- <div role="group" > -->
                         <form class="form">
@@ -96,7 +97,8 @@
                             <input class="checkbox__input" type="checkbox" name="checkbox">   
                             <span class="checkbox__icon"></span>                         
                             </label>                            
-                        </div>                        
+                        </div> 
+                                               
                             <button class="form__btn" type="submit">Отправить</button>                        
                     </form>
                     </div>

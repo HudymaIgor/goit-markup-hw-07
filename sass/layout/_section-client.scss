@@ -1,0 +1,33 @@
+.client-ul {
+    display: flex;
+
+    & li:not(:nth-child(-n+1)) {
+        margin-left: 30px;
+    }
+
+    &.icon {
+        display: inline-block;
+        width: 106px;
+        height: 60px;
+    }
+}
+
+.compani-a {
+    display: block;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    padding: 16px 32px;
+    fill: var(--svg-color);
+    transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-hover);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--accent-color);
+        fill: var(--accent-color);
+    }
+}

@@ -1,0 +1,142 @@
+
+/* navigation */
+.navigation {
+
+    align-items: flex-end;
+    display: flex;
+}
+
+/*logo*/
+.navigation__logo {
+    margin-right: 93px;
+
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--nav-text-color);
+
+}
+
+.logo--color {
+    color: var(--accent-color);
+}
+
+.navigation__list {
+    display: flex;
+
+    & .navigation__item +.navigation__item {
+        margin-left: 50px;
+    }
+}
+
+.navigation__item {
+    margin-bottom: 0;
+}
+
+.navigation__page {
+    display: block;
+    position: relative;
+
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-hover);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 0;
+        bottom: -28px;
+
+        width: 100%;
+        height: 4px;
+        border-radius: 25px;
+        background-color: var(--accent-color);
+        opacity: 0;
+
+        transition-duration: 250ms;
+        transition-timing-function: var(--timing-hover);
+        transition-property: opacity;
+    }
+
+    &:hover::after,
+    &:focus::after {
+        opacity: 1;
+    }
+}
+
+.current__page {
+    color: var(--accent-color);
+    position: relative;
+    cursor: default;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        bottom: -27px;
+        border-radius: 25px;
+        background-color: var(--accent-color);
+    }
+}
+
+.contacts {
+    margin-left: auto;
+    margin-top: 6px;
+    align-items: flex-end;
+
+    & a:hover,
+    & a:focus {
+        fill: var(--accent-color);
+        color: var(--accent-color);
+    }
+}
+
+.contact__li {
+    display: inline-flex;
+    fill: var(--primary-text-color);
+
+    &:nth-child(-n+1) {
+        margin-right: 30px;
+    }
+}
+.contact__link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-hover);
+}
+
+.contact__svg {
+    display: inline-flex;
+    margin-right: 10px;
+    bottom: 0%;
+}
+

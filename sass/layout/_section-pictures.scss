@@ -1,0 +1,41 @@
+.section-pictures {
+    padding-top: 0;
+}
+
+.picture-ul {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.picture-img {
+    display: block;
+
+}
+
+.pictures-li {
+    position: relative;
+    z-index: -1;
+}
+
+.pictures-div {
+    z-index: 1;
+    position: absolute;
+
+
+    width: 370px;
+    height: 70px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+
+    background-color: rgba(47, 48, 58, 0.8);
+    color: var(--background-color);
+}

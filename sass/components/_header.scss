@@ -1,0 +1,17 @@
+.header {
+    background-color: var(--header-background-color);
+    border-bottom: 1px solid var(--heder-border);
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+
+    & a {
+        text-decoration: none;
+    }
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-end;
+
+}
