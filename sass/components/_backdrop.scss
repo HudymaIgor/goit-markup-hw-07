@@ -85,7 +85,7 @@
 
 }
 
-.form-tatle {
+.form__tatle {
 
     font-weight: 700;
     font-size: 20px;
@@ -96,12 +96,12 @@
     margin-bottom: 12px;
 }
 
-.modal-fill {
+.form__fill {
     position: relative;
     margin-top: 10px;
 }
 
-.form-tatle-fill {
+.form__tatle-fill {
     text-align: start;
     padding-bottom: 4px;
 
@@ -185,7 +185,7 @@ textarea {
     color: #757575;
 }
 
-.contact-svg-man {
+.form__svg {
     position: absolute;
     top: 50%;
     left: 13px;

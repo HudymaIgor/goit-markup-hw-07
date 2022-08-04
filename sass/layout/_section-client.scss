@@ -1,18 +1,18 @@
-.client-ul {
+.section-client__ul {
     display: flex;
 
     & li:not(:nth-child(-n+1)) {
         margin-left: 30px;
     }
 
-    &.icon {
+    & .icon {
         display: inline-block;
         width: 106px;
         height: 60px;
     }
 }
 
-.compani-a {
+.section-client__a {
     display: block;
     width: 170px;
     height: 92px;

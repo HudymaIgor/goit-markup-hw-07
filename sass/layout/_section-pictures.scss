@@ -2,7 +2,7 @@
     padding-top: 0;
 }
 
-.picture-ul {
+.section-pictures__ul {
     display: block;
     display: flex;
     justify-content: space-between;
@@ -14,12 +14,12 @@
 
 }
 
-.pictures-li {
+.section-pictures__li {
     position: relative;
     z-index: -1;
 }
 
-.pictures-div {
+.section-pictures__div {
     z-index: 1;
     position: absolute;
 
