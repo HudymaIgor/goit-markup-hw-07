@@ -219,26 +219,35 @@ textarea {
 }
 
 .checkbox__input {
-    visibility: hidden;
+-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
 }
+checkbox__label {
+    position: relative;
+    display: inline-block;
+    outline: 1px solid var(--nav-text-color);
 
+}
 .checkbox__icon {
     position: absolute;
-    top: 5px;
-    left: 10px;
-
-    display: inline-block;
-    width: 16px;
-    height: 15px;
-    background-repeat: no-repeat;
-    border: 1px solid var(--nav-text-color);
-    border-radius: 3px;
-    background-size: cover;
-    box-sizing: border-box;
+        top: 3px;
+        left: 13px;
+    
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        background-repeat: no-repeat;
+        border: 1px solid var(--nav-text-color);
+        border-radius: 3px;
 
     .checkbox__input:checked+& {
-        border: 1px solid var(--accent-color);
-        background-image: url(../images/check.svg);
+        border-color: transparent;
+            background-color: #2196f3;
+            background-image: url(../images/check.svg);
+            background-size: contain;
+            background-origin: border-box;
     }
 
 }.form__btn {
