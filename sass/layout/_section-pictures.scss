@@ -22,6 +22,7 @@
 .section-pictures__div {
     z-index: 1;
     position: absolute;
+
     bottom: 0px;
 
     width: 370px;
@@ -35,7 +36,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: center;
-
     background-color: rgba(47, 48, 58, 0.8);
     color: var(--background-color);
 }
