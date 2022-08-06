@@ -1,8 +1,9 @@
-.advantages__ul {
+.advantages__roll {
     display: flex;
     gap: 30px;
+    
 }
-.advantages__li {
+.advantages__list {
     width: 270px;
 }
 .advantages__box {
@@ -15,20 +16,20 @@
     margin-bottom: 30px;
 }
 
-.advantages__svg {
+.advantages__ikon {
     justify-content: center;
     width: 70px;
     height: 70px;
 }
 
-.advantages__li-title {
+.advantages__list-title {
     margin-bottom: 10px;
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
-.advantages__li-text {
+.advantages__list-text {
     margin-bottom: 0;
     font-size: 14px;
     line-height: 1.7;

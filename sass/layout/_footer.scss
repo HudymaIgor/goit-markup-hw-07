@@ -23,7 +23,7 @@
     line-height: 1.7;
 }
 
-.address__ul .address__li+.address__li {
+.address__roll .address__list+.address__list {
     margin-top: 9px;
 }
 
@@ -71,7 +71,7 @@
 
     padding: 12px;
     fill: var(--background-color);
-    background-color: var(--svg-background);
+    background-color: var(--ikon-background);
     border-radius: 50%;
     transition-property: background-color;
     transition-duration: 250ms;
@@ -154,7 +154,7 @@
         fill: var(--accent-color);
     }
 }
-.connect__svg {
+.connect__ikon {
     width: 24px;
     height: 24px;
     margin-left: 10px;

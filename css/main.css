@@ -10,8 +10,8 @@
   --primarly-zone-color: #2f303a;
   --people-background-color: #E5E5E5;
   --heder-border: #ECECEC;
-  --svg-color: #AFB1B8;
-  --svg-background: rgba(255, 255, 255, 0.1);
+  --ikon-color: #AFB1B8;
+  --ikon-background: rgba(255, 255, 255, 0.1);
   --timing-hover: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -210,7 +210,7 @@ ul {
   transition-timing-function: var(--timing-hover);
 }
 
-.contact__svg {
+.contact__ikon {
   display: inline-flex;
   margin-right: 10px;
   bottom: 0%;
@@ -334,7 +334,7 @@ ul {
   height: 30px;
 }
 
-.close__svg {
+.close__ikon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,7 +344,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.close__svg:hover, .close__svg:focus {
+.close__ikon:hover, .close__ikon:focus {
   fill: var(--accent-color);
 }
 
@@ -454,7 +454,7 @@ textarea {
   color: #757575;
 }
 
-.form__svg {
+.form__ikon {
   position: absolute;
   top: 50%;
   left: 13px;
@@ -464,7 +464,7 @@ textarea {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.form__input:hover + .form__svg, .form__input:focus + .form__svg {
+.form__input:hover + .form__ikon, .form__input:focus + .form__ikon {
   fill: #2196f3;
 }
 
@@ -535,12 +535,12 @@ checkbox__label {
   border: 2px solid var(--accent-color);
 }
 
-.advantages__ul {
+.advantages__roll {
   display: flex;
   gap: 30px;
 }
 
-.advantages__li {
+.advantages__list {
   width: 270px;
 }
 
@@ -554,13 +554,13 @@ checkbox__label {
   margin-bottom: 30px;
 }
 
-.advantages__svg {
+.advantages__ikon {
   justify-content: center;
   width: 70px;
   height: 70px;
 }
 
-.advantages__li-title {
+.advantages__list-title {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-size: 14px;
@@ -568,7 +568,7 @@ checkbox__label {
   text-transform: uppercase;
 }
 
-.advantages__li-text {
+.advantages__list-text {
   margin-bottom: 0;
   font-size: 14px;
   line-height: 1.7;
@@ -578,7 +578,7 @@ checkbox__label {
   padding-top: 0;
 }
 
-.section-pictures__ul {
+.section-pictures__roll {
   display: block;
   display: flex;
   justify-content: space-between;
@@ -589,7 +589,7 @@ checkbox__label {
   display: block;
 }
 
-.section-pictures__li {
+.section-pictures__list {
   position: relative;
   z-index: -1;
 }
@@ -616,7 +616,7 @@ checkbox__label {
   text-align: center;
 }
 
-.section-people__ul {
+.section-people__roll {
   display: flex;
 }
 
@@ -660,7 +660,7 @@ checkbox__label {
   width: 44px;
   height: 44px;
   padding: 12px;
-  fill: var(--svg-color);
+  fill: var(--ikon-color);
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
@@ -671,24 +671,24 @@ checkbox__label {
   background-color: var(--accent-color);
 }
 
-.people-svg {
+.people-ikon {
   width: 20px;
   height: 20px;
 }
 
-.section-client__ul {
+.section-client__roll {
   display: flex;
 }
-.section-client__ul li:not(:nth-child(-n+1)) {
+.section-client__roll li:not(:nth-child(-n+1)) {
   margin-left: 30px;
 }
-.section-client__ul .icon {
+.section-client__roll .icon {
   display: inline-block;
   width: 106px;
   height: 60px;
 }
 
-.section-client__a {
+.section-client__link {
   display: block;
   width: 170px;
   height: 92px;
@@ -696,12 +696,12 @@ checkbox__label {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   padding: 16px 32px;
-  fill: var(--svg-color);
+  fill: var(--ikon-color);
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.section-client__a:hover, .section-client__a:focus {
+.section-client__link:hover, .section-client__link:focus {
   border: 1px solid var(--accent-color);
   fill: var(--accent-color);
 }
@@ -731,7 +731,7 @@ checkbox__label {
   line-height: 1.7;
 }
 
-.address__ul .address__li + .address__li {
+.address__roll .address__list + .address__list {
   margin-top: 9px;
 }
 
@@ -774,7 +774,7 @@ checkbox__label {
   height: 44px;
   padding: 12px;
   fill: var(--background-color);
-  background-color: var(--svg-background);
+  background-color: var(--ikon-background);
   border-radius: 50%;
   transition-property: background-color;
   transition-duration: 250ms;
@@ -845,7 +845,7 @@ checkbox__label {
   fill: var(--accent-color);
 }
 
-.connect__svg {
+.connect__ikon {
   width: 24px;
   height: 24px;
   margin-left: 10px;

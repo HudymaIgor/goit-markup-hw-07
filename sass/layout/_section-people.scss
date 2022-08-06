@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.section-people__ul {
+.section-people__roll {
     display: flex;
 }
 
@@ -48,7 +48,7 @@
     width: 44px;
     height: 44px;
     padding: 12px;
-    fill: var(--svg-color);
+    fill: var(--ikon-color);
 
     transition-property: fill, background-color;
     transition-duration: 250ms;
@@ -63,7 +63,7 @@
     }
 }
 
-.people-svg {
+.people-ikon {
     width: 20px;
     height: 20px;
 }

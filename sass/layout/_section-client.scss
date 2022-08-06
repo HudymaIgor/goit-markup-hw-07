@@ -1,4 +1,4 @@
-.section-client__ul {
+.section-client__roll {
     display: flex;
 
     & li:not(:nth-child(-n+1)) {
@@ -12,7 +12,7 @@
     }
 }
 
-.section-client__a {
+.section-client__link {
     display: block;
     width: 170px;
     height: 92px;
@@ -20,7 +20,7 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding: 16px 32px;
-    fill: var(--svg-color);
+    fill: var(--ikon-color);
     transition-property: border, fill;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-hover);
