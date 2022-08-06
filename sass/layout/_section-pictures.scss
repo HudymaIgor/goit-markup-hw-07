@@ -17,7 +17,9 @@
   position: relative;
   z-index: -1;
 }
-
+.section-pictures__div {
+  border: 1px solid red;
+}
 .section-pictures__div {
   z-index: 1;
   position: absolute;
@@ -27,6 +29,7 @@
   height: 70px;
   padding-top: 27px;
   padding-bottom: 27px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
