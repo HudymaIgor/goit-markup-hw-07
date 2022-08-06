@@ -629,7 +629,7 @@ checkbox__label {
   margin-left: 30px;
 }
 
-.section-people__foto {
+.section-people__photo {
   padding-bottom: 30px;
 }
 
@@ -641,18 +641,18 @@ checkbox__label {
   line-height: 1.18;
 }
 
-.section-people__position {
+.section-people__subtitle {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
 }
 
-.section-people__div {
+.section-people__social-blok {
   display: inline-flex;
   width: 206px;
   margin-bottom: 30px;
 }
-.section-people__div .section-people__box + .section-people__box {
+.section-people__social-blok .section-people__box + .section-people__box {
   margin-left: 10px;
 }
 
