@@ -23,12 +23,12 @@
 .navigation__list {
   display: flex;
 
-  & .navigation__item + .navigation__item {
+  & .navigation__link + .navigation__link {
     margin-left: 50px;
   }
 }
 
-.navigation__item {
+.navigation__link {
   margin-bottom: 0;
 }
 
@@ -109,7 +109,7 @@
   }
 }
 
-.contact__li {
+.contact__link {
   display: inline-flex;
   fill: var(--primary-text-color);
 
@@ -117,7 +117,7 @@
     margin-right: 30px;
   }
 }
-.contact__link {
+.contact__join {
   display: inline-flex;
   align-items: center;
   color: var(--primary-text-color);
@@ -130,7 +130,7 @@
   transition-timing-function: var(--timing-hover);
 }
 
-.contact__ikon {
+.contact__icon {
   display: inline-flex;
   margin-right: 10px;
   bottom: 0%;

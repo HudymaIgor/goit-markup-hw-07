@@ -2,16 +2,16 @@
   --title-text-color: #212121;
   --background-color: #ffffff;
   --primary-text-color: #757575;
-  --portfolio-border: #EEEEEE;
+  --portfolio-border: #eeeeee;
   --accent-color: #2196f3;
   --nav-text-color: #000000;
   --secondary-zone-color: #f5f4fa;
   --transparent-white: rgba(255, 255, 255, 0.6);
   --primarly-zone-color: #2f303a;
-  --people-background-color: #E5E5E5;
-  --heder-border: #ECECEC;
-  --ikon-color: #AFB1B8;
-  --ikon-background: rgba(255, 255, 255, 0.1);
+  --people-background-color: #e5e5e5;
+  --heder-border: #ececec;
+  --icon-color: #afb1b8;
+  --icon-background: rgba(255, 255, 255, 0.1);
   --timing-hover: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -116,11 +116,11 @@ ul {
 .navigation__list {
   display: flex;
 }
-.navigation__list .navigation__item + .navigation__item {
+.navigation__list .navigation__link + .navigation__link {
   margin-left: 50px;
 }
 
-.navigation__item {
+.navigation__link {
   margin-bottom: 0;
 }
 
@@ -189,15 +189,15 @@ ul {
   color: var(--accent-color);
 }
 
-.contact__li {
+.contact__link {
   display: inline-flex;
   fill: var(--primary-text-color);
 }
-.contact__li:nth-child(-n+1) {
+.contact__link:nth-child(-n+1) {
   margin-right: 30px;
 }
 
-.contact__link {
+.contact__join {
   display: inline-flex;
   align-items: center;
   color: var(--primary-text-color);
@@ -210,7 +210,7 @@ ul {
   transition-timing-function: var(--timing-hover);
 }
 
-.contact__ikon {
+.contact__icon {
   display: inline-flex;
   margin-right: 10px;
   bottom: 0%;
@@ -253,7 +253,7 @@ ul {
   text-transform: uppercase;
 }
 
-.button-hero {
+.hero__button {
   margin-bottom: 0;
   border: none;
   font-weight: 700;
@@ -262,7 +262,7 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 10px 32px;
   min-width: 73px;
   text-align: center;
@@ -280,7 +280,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.button-hero:hover, .button-hero:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: transparent;
   color: var(--accent-color);
 }
@@ -314,7 +314,7 @@ ul {
   transform: translate(-50%, -50%);
   background-color: var(--background-color);
   z-index: 2;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
@@ -334,7 +334,7 @@ ul {
   height: 30px;
 }
 
-.close__ikon {
+.close__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,7 +344,7 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.close__ikon:hover, .close__ikon:focus {
+.close__icon:hover, .close__icon:focus {
   fill: var(--accent-color);
 }
 
@@ -358,7 +358,7 @@ ul {
   color: var(--primary-text-color);
 }
 
-.form__tatle {
+.form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -373,7 +373,7 @@ ul {
   margin-top: 10px;
 }
 
-.form__tatle-fill {
+.form__title-fill {
   text-align: start;
   padding-bottom: 4px;
   font-weight: 400;
@@ -444,7 +444,7 @@ textarea {
   /* box-sizing: border-box; */
 }
 
-.checkbox__tatle {
+.checkbox__title {
   margin-left: 28px;
   cursor: pointer;
   font-weight: 400;
@@ -454,7 +454,7 @@ textarea {
   color: #757575;
 }
 
-.form__ikon {
+.form__icon {
   position: absolute;
   top: 50%;
   left: 13px;
@@ -464,17 +464,17 @@ textarea {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.form__input:hover + .form__ikon, .form__input:focus + .form__ikon {
+.form__input:hover + .form__icon, .form__input:focus + .form__icon {
   fill: #2196f3;
 }
 
-.modal-checkbox-a {
+.checkbox__link {
   color: var(--accent-color);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.modal-checkbox-a:hover, .modal-checkbox-a:focus {
+.checkbox__link:hover, .checkbox__link:focus {
   color: var(--nav-text-color);
 }
 
@@ -510,7 +510,7 @@ checkbox__label {
   background-origin: border-box;
 }
 
-.form__btn {
+.form__button {
   margin-top: 30px;
   font-weight: 700;
   font-size: 16px;
@@ -529,7 +529,7 @@ checkbox__label {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.form__btn:hover, .form__btn:focus {
+.form__button:hover, .form__button:focus {
   background-color: transparent;
   color: var(--accent-color);
   border: 2px solid var(--accent-color);
@@ -554,7 +554,7 @@ checkbox__label {
   margin-bottom: 30px;
 }
 
-.advantages__ikon {
+.advantages__icon {
   justify-content: center;
   width: 70px;
   height: 70px;
@@ -585,7 +585,7 @@ checkbox__label {
   margin-bottom: 0;
 }
 
-.picture-img {
+.section-pictures__icon {
   display: block;
 }
 
@@ -594,7 +594,7 @@ checkbox__label {
   z-index: -1;
 }
 
-.section-pictures__div {
+.section-pictures__title-icon {
   z-index: 1;
   position: absolute;
   bottom: 0px;
@@ -634,7 +634,7 @@ checkbox__label {
   padding-bottom: 30px;
 }
 
-.section-people__name {
+.section-people__title {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
@@ -648,31 +648,31 @@ checkbox__label {
   line-height: 1.18;
 }
 
-.section-people__social-blok {
+.social-block {
   display: inline-flex;
   width: 206px;
   margin-bottom: 30px;
 }
-.section-people__social-blok .section-people__box + .section-people__box {
+.social-block .social-block__box + .social-block__box {
   margin-left: 10px;
 }
 
-.section-people__box {
+.social-block__box {
   width: 44px;
   height: 44px;
   padding: 12px;
-  fill: var(--ikon-color);
+  fill: var(--icon-color);
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
   border-radius: 50%;
 }
-.section-people__box:hover, .section-people__box:focus {
+.social-block__box:hover, .social-block__box:focus {
   fill: var(--background-color);
   background-color: var(--accent-color);
 }
 
-.people-ikon {
+.social-block__icon {
   width: 20px;
   height: 20px;
 }
@@ -694,10 +694,10 @@ checkbox__label {
   width: 170px;
   height: 92px;
   align-items: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 16px 32px;
-  fill: var(--ikon-color);
+  fill: var(--icon-color);
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
@@ -746,14 +746,14 @@ checkbox__label {
   color: var(--accent-color);
 }
 
-.social-blok {
+.social-block__footer {
   margin-left: 70px;
   width: 206px;
   height: 80px;
   margin-top: 12px;
 }
 
-.footer-h3 {
+.social-block__footer__title {
   color: var(--background-color);
   font-size: 14px;
   line-height: 1.14;
@@ -762,7 +762,7 @@ checkbox__label {
   margin-bottom: 20px;
 }
 
-.social-blok__box {
+.social-block__footer__box {
   display: inline-flex;
   height: 44px;
   width: 206px;
@@ -770,21 +770,21 @@ checkbox__label {
   align-items: center;
 }
 
-.social-blok__ikon {
+.social-block__footer__link {
   width: 44px;
   height: 44px;
   padding: 12px;
   fill: var(--background-color);
-  background-color: var(--ikon-background);
+  background-color: var(--icon-background);
   border-radius: 50%;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.social-blok__ikon:not(:nth-last-child(-n+1)) {
+.social-block__footer__link:not(:nth-last-child(-n+1)) {
   margin-right: 10px;
 }
-.social-blok__ikon:hover, .social-blok__ikon:focus {
+.social-block__footer__link:hover, .social-block__footer__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -815,7 +815,7 @@ checkbox__label {
   border: 1px solid var(--accent-color);
 }
 
-.connect__btn {
+.connect__button {
   border: none;
   display: flex;
   align-items: center;
@@ -840,13 +840,13 @@ checkbox__label {
   transition-duration: 250ms;
   transition-timing-function: var(--timing-hover);
 }
-.connect__btn:hover, .connect__btn:focus {
+.connect__button:hover, .connect__button:focus {
   background-color: transparent;
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.connect__ikon {
+.connect__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;

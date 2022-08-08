@@ -39,14 +39,14 @@
   }
 }
 
-.social-blok {
+.social-block__footer {
   margin-left: 70px;
   width: 206px;
   height: 80px;
   margin-top: 12px;
 }
 
-.footer-h3 {
+.social-block__footer__title {
   color: var(--background-color);
   font-size: 14px;
   line-height: 1.14;
@@ -55,7 +55,7 @@
   margin-bottom: 20px;
 }
 
-.social-blok__box {
+.social-block__footer__box {
   display: inline-flex;
   height: 44px;
   width: 206px;
@@ -63,13 +63,13 @@
   align-items: center;
 }
 
-.social-blok__ikon {
+.social-block__footer__link {
   width: 44px;
   height: 44px;
 
   padding: 12px;
   fill: var(--background-color);
-  background-color: var(--ikon-background);
+  background-color: var(--icon-background);
   border-radius: 50%;
   transition-property: background-color;
   transition-duration: 250ms;
@@ -115,7 +115,7 @@
   }
 }
 
-.connect__btn {
+.connect__button {
   border: none;
   display: flex;
   align-items: center;
@@ -151,7 +151,7 @@
     fill: var(--accent-color);
   }
 }
-.connect__ikon {
+.connect__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;
