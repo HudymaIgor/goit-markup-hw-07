@@ -535,7 +535,7 @@ checkbox__label {
   border: 2px solid var(--accent-color);
 }
 
-.advantages__roll {
+.advantages__row {
   display: flex;
   gap: 30px;
 }
@@ -578,7 +578,7 @@ checkbox__label {
   padding-top: 0;
 }
 
-.section-pictures__roll {
+.section-pictures__row {
   display: block;
   display: flex;
   justify-content: space-between;
@@ -617,16 +617,16 @@ checkbox__label {
   text-align: center;
 }
 
-.section-people__roll {
+.section-people__row {
   display: flex;
 }
 
-.section-people__frame {
+.section-people__item {
   background: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.section-people__frame:not(:nth-child(-n+1)) {
+.section-people__item:not(:nth-child(-n+1)) {
   margin-left: 30px;
 }
 
@@ -677,13 +677,13 @@ checkbox__label {
   height: 20px;
 }
 
-.section-client__roll {
+.section-client__row {
   display: flex;
 }
-.section-client__roll li:not(:nth-child(-n+1)) {
+.section-client__row li:not(:nth-child(-n+1)) {
   margin-left: 30px;
 }
-.section-client__roll .icon {
+.section-client__row .icon {
   display: inline-block;
   width: 106px;
   height: 60px;
@@ -732,7 +732,7 @@ checkbox__label {
   line-height: 1.7;
 }
 
-.address__roll .address__list + .address__list {
+.address__row .address__list + .address__list {
   margin-top: 9px;
 }
 
@@ -746,14 +746,14 @@ checkbox__label {
   color: var(--accent-color);
 }
 
-.social-block__footer {
+.social-block-footer {
   margin-left: 70px;
   width: 206px;
   height: 80px;
   margin-top: 12px;
 }
 
-.social-block__footer__title {
+.footer-title {
   color: var(--background-color);
   font-size: 14px;
   line-height: 1.14;
@@ -762,30 +762,9 @@ checkbox__label {
   margin-bottom: 20px;
 }
 
-.social-block__footer__box {
-  display: inline-flex;
-  height: 44px;
-  width: 206px;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-block__footer__link {
-  width: 44px;
-  height: 44px;
-  padding: 12px;
+.social-block__box--color {
   fill: var(--background-color);
   background-color: var(--icon-background);
-  border-radius: 50%;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--timing-hover);
-}
-.social-block__footer__link:not(:nth-last-child(-n+1)) {
-  margin-right: 10px;
-}
-.social-block__footer__link:hover, .social-block__footer__link:focus {
-  background-color: var(--accent-color);
 }
 
 .connect {
