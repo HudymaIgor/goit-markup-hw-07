@@ -162,10 +162,6 @@ ul {
   color: var(--accent-color);
   position: relative;
   cursor: default;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 .navigation__page--current::after {
   content: "";
@@ -595,8 +591,13 @@ checkbox__label {
 }
 
 .section-pictures__div {
+  border: 1px solid red;
+}
+
+.section-pictures__div {
   z-index: 1;
   position: absolute;
+  bottom: 0px;
   width: 370px;
   height: 70px;
   padding-top: 27px;
