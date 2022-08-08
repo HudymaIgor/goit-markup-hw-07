@@ -99,7 +99,7 @@ z-index: 1;
     border-radius: 0px 0px 4px 4px;
 }
 
-.foto {
+.photo {
     padding-bottom: 30px;
 }
 
@@ -220,7 +220,7 @@ fill: var(--accent-color);
 }
 
 
-.networks{
+.social-blok{
 margin-left: 70px;
 width: 206px;
 height: 80px;
@@ -235,7 +235,7 @@ color: var(--background-color);
     text-transform: uppercase;
     margin-bottom: 20px;   
 }
-.networks__box{
+.social-blok__box{
     display: inline-flex;
     height: 44px;
     width: 206px;
@@ -243,7 +243,7 @@ color: var(--background-color);
     align-items: center;
 
 }
-.networks__ikon{
+.social-blok__ikon{
     width: 44px;
     height: 44px;
 
@@ -255,11 +255,11 @@ color: var(--background-color);
     transition-duration: 250ms;
     transition-timing-function: var(--timing-hover); 
 }
-.networks__ikon:not(:nth-last-child(-n+1)){
+.social-blok__ikon:not(:nth-last-child(-n+1)){
 margin-right: 10px;
 }
-.networks__ikon:hover,
-.networks__ikon:focus {
+.social-blok__ikon:hover,
+.social-blok__ikon:focus {
     background-color:var(--accent-color);
 }
 .connect{
